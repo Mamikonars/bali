@@ -1,0 +1,753 @@
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1266px) {
+	footer .logo {
+		width: 14%;
+	}
+
+	.footer-list {
+		width: 14%;
+	}
+
+	.btn-footer {
+		width: 14%;
+	}
+
+	.footer-contacts {
+		width: 14%;
+	}
+
+	.footer-social {
+		width: 14%;
+	}
+
+	.bali-offers__list {
+		width: 29%;
+	}
+
+	.offer-btn {
+		width: 37%;
+	}
+
+	.tour-offer {
+		padding: 76px 100px;
+	}
+
+	.dots {
+		margin-left: 25%;
+	}
+
+	.slider-day {
+		margin-bottom: 35px;
+	}
+
+	.about-info {
+		margin-top: 130px;
+	}
+
+	.about-info {
+		justify-content: space-between;
+	}
+
+	.about-info__item {
+		max-width: 23%;
+	}
+
+	.about-info__title {
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 1035px) {
+	.footer-list {
+		width: 10%;
+	}
+
+	.btn-footer {
+		width: 20%;
+	}
+
+	.footer-contacts {
+		width: 30%;
+	}
+
+	.footer-social {
+		width: 40%;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.reviews-title {
+		font-size: 57px;
+	}
+
+	.reviews-name {
+		font-size: 77px;
+		line-height: 1.1;
+	}
+
+	.bali-info__img-block {
+		width: 65%;
+		margin: 0 auto 40px;
+	}
+
+	.bali-info__text-block {
+		width: 100%;
+		margin-left: 30px;
+	}
+
+
+	.newsletter-block {
+		padding: 40px 0 70px;
+	}
+
+	.tour-offer {
+		padding: 65px 34px;
+	}
+
+	.dots {
+		margin-left: 20%;
+	}
+
+	.slider-day {
+		margin-bottom: 0;
+	}
+
+	.slider-title {
+		margin-bottom: 0;
+		font-size: 36px;
+	}
+
+	.about-info__item {
+		max-width: 48%;
+		margin-bottom: 20px;
+	}
+
+	.about-info {
+		margin-top: 100px;
+	}
+
+	/* mobile menu */
+	.nav-bar {
+		position: fixed;
+		z-index: 9999;
+		background-color: #122;
+		top: 0;
+		right: 100%;
+		height: 100vh;
+		width: 250px;
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		transition: position 2.9s;
+		-webkit-transition: position 2.9s;
+		-moz-transition: position 2.9s;
+		-ms-transition: position 2.9s;
+		-o-transition: position 2.9s;
+	}
+
+	.toggle {
+		left: 0;
+		box-shadow: 1px 0 15px 2px rgba(0, 0, 0, 0.4);
+
+	}
+
+	.toggle-menu {
+		background-color: rgba(0, 0, 0, 0.2);
+		position: fixed;
+		top: 60px;
+		right: 25px;
+		width: 40px;
+		height: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 2px 2px 2px 3px;
+		border-radius: 5px;
+		cursor: pointer;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+	}
+
+	.line {
+		width: 100%;
+		height: 3px;
+		border-radius: 5px;
+		background-color: #fff;
+		transition: transform 0.2s ease-out;
+		-webkit-transition: transform 0.2s ease-out;
+		-moz-transition: transform 0.2s ease-out;
+		-ms-transition: transform 0.2s ease-out;
+		-o-transition: transform 0.2s ease-out;
+	}
+
+	.toggle .line1 {
+		background-color: #000000;
+		transform: scale(0.9) rotateZ(-45deg) translate(-6px, 4px);
+	}
+
+	.toggle .line2 {
+		display: none;
+	}
+
+	.toggle .line3 {
+		background-color: #000000;
+		transform: scale(0.9) rotateZ(45deg) translate(-6px, -4px);
+	}
+
+	.toggle .toggle-menu {
+		background-color: white;
+	}
+
+	.nav-list {
+		list-style: none;
+	}
+
+	.nav-list-item {
+		text-align: center;
+		padding: 10px 0;
+		margin-top: 15%;
+	}
+
+	.nav-link {
+		color: #fff;
+		font-size: 26px;
+		text-decoration: none;
+		position: relative;
+		padding-bottom: 4px;
+	}
+
+	.nav-link::before {
+		position: absolute;
+		content: '';
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 1px;
+		background-color: #fff;
+		transform: scaleX(0);
+		transition: transform 0.4s ease-in-out;
+		transform-origin: left;
+		-webkit-transition: transform 0.4s ease-in-out;
+		-moz-transition: transform 0.4s ease-in-out;
+		-ms-transition: transform 0.4s ease-in-out;
+		-o-transition: transform 0.4s ease-in-out;
+	}
+
+	.nav-link:hover::before {
+		transform: scaleX(1);
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.toggle .nav-list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.nav-link {
+		margin-left: 0;
+	}
+
+	/* mobile menu */
+}
+
+@media screen and (max-width: 970px) {
+	.reviews-block__img img {
+		width: 60%;
+	}
+
+	.offer-btn {
+		width: 42%;
+	}
+
+	.tour-offer {
+		padding: 65px 14px;
+	}
+
+	.offer-price {
+		width: 27%;
+		text-align: center;
+	}
+
+	.slide.active {
+		flex-wrap: wrap;
+	}
+
+	.slider-info {
+		width: 100%;
+		text-align: center;
+	}
+
+	.slider-img {
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.slide-navigation {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.dots {
+		margin-left: 0;
+		text-align: center;
+		margin: 20px auto;
+	}
+
+	.days {
+		display: flex;
+		margin-left: 0;
+	}
+
+	.program-tour {
+		margin-left: 0;
+		text-align: center;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.footer-social .social-link {
+		margin-left: 15px;
+	}
+
+	.reviews-block {
+		align-items: center;
+	}
+
+	.bali-subtitle {
+		font-size: 38px;
+	}
+
+	.bali-desc {
+		font-size: 42px;
+	}
+
+	.newsletter-form__input {
+		width: 100%;
+	}
+
+	.newsletter-form__submit {
+		width: 100%;
+		padding: 27px 20px;
+		margin-top: 10px;
+
+	}
+
+	.tour-subtitle {
+		font-size: 36px;
+	}
+
+	.offer-btn {
+		width: 38%;
+	}
+
+	.section-title {
+		font-size: 56px;
+	}
+
+	.social {
+		position: unset;
+		margin: 35px auto;
+	}
+
+	.intro-content {
+		text-align: center;
+		position: unset;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.social-link {
+		margin-left: 12px;
+	}
+
+	.social .social-item:first-child {
+		margin-right: 30px;
+	}
+
+	.social .social-item:last-child {
+		margin-left: 30px;
+	}
+
+	.subscribe {
+		padding: 30px 0 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	footer .logo {
+		width: 22%;
+		margin-bottom: 60px;
+	}
+
+	.footer-list {
+		width: 35%;
+	}
+
+	.btn-footer {
+		width: 30%;
+	}
+
+	.footer-contacts {
+		width: 57%;
+	}
+
+	.footer-social {
+		width: 25%;
+	}
+
+	.reviews-block__img {
+		width: 65%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.reviews-block__img img {
+		width: 60%;
+		border-radius: 10%;
+	}
+
+	.reviews-block__text {
+		width: 100%;
+	}
+
+	.bali-info__img-block {
+		width: 75%;
+	}
+
+	.bali-desc {
+		font-size: 36px;
+	}
+
+	.tour-info__list {
+		list-style: none;
+		margin-left: 0;
+	}
+
+	.tour-info {
+		text-align: center;
+		flex-wrap: wrap;
+	}
+
+	.tour-info__desc {
+		width: 100%;
+	}
+
+	.tour-info__about {
+		width: 100%;
+	}
+
+	.tour-offer {
+		margin-bottom: 30px;
+	}
+
+	.tour-subtitle {
+		font-size: 34px;
+		margin-bottom: 50px;
+		line-height: 1.6;
+	}
+
+	.tour-offer {
+		padding: 40px 10px;
+		flex-direction: column;
+	}
+
+	.offer-desc {
+		width: 67%;
+		font-weight: 500;
+		font-size: 22px;
+		line-height: 1.5;
+		text-align: center;
+	}
+
+	.offer-btn {
+		width: 64%;
+		margin: 20px auto;
+	}
+
+	.slider-block {
+		margin: 50px auto;
+	}
+
+	.about-info__item {
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.header-title {
+		max-width: 80%;
+	}
+
+	.btn-transparent {
+		margin-top: 12px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	.reviews-name {
+		font-size: 64px;
+		line-height: 0.5;
+	}
+
+	.section-title {
+		font-size: 50px;
+	}
+
+	.bali-info__text {
+		font-size: 21px;
+	}
+
+	.bali-offers__list {
+		width: 46%;
+	}
+
+	.bali-desc {
+		font-size: 31px;
+		margin-bottom: 70px;
+	}
+
+	.bali-subtitle {
+		font-size: 29px;
+		margin-bottom: 60px;
+	}
+
+	.offer-price {
+		width: 80%;
+		text-align: center;
+	}
+
+	.offer-btn {
+		width: 80%;
+	}
+
+	.header-title {
+		font-size: 60px;
+		max-width: 85%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.btn {
+		padding: 21px 68px;
+	}
+
+	.footer-social {
+		width: 45%;
+	}
+
+	.footer-list {
+		width: 45%;
+		margin-bottom: 30px;
+	}
+
+	footer .logo {
+		width: 45%;
+	}
+
+	.footer-contacts {
+		width: 47%;
+	}
+
+	.btn-footer {
+		width: 42%;
+		padding: 12px 2px;
+		margin-bottom: 30px;
+	}
+
+	.reviews-block__img img {
+		width: 80%;
+	}
+
+	.reviews-name {
+		font-size: 46px;
+	}
+
+	.section-title {
+		font-size: 40px;
+	}
+
+	.bali-info__text {
+		font-size: 19px;
+	}
+
+
+	.bali-desc {
+		font-size: 28px;
+		margin-bottom: 40px;
+	}
+
+	.bali-subtitle {
+		font-size: 27px;
+	}
+
+
+	.newsletter-title {
+		line-height: 56px;
+		font-size: 36px;
+		max-width: 96%;
+	}
+
+
+	.header-title {
+		font-size: 60px;
+		max-width: 93%;
+	}
+
+	.newsletter-title {
+		line-height: 61px;
+		font-size: 33px;
+		max-width: 94%;
+		font-weight: 500;
+		text-align: center;
+		margin: 40px auto;
+	}
+
+
+}
+
+@media screen and (max-width: 420px) {
+	.section-title {
+		font-size: 31px;
+	}
+
+	.reviews-name {
+		font-size: 34px;
+	}
+
+	.btn-footer {
+		width: 80%;
+		margin: 0px auto 30px;
+	}
+
+	.bali-info__text {
+		font-size: 17px;
+	}
+
+	.bali-offers__list {
+		width: 100%;
+	}
+
+	.bali-offers__title {
+		margin-top: 16px;
+		line-height: 30px;
+	}
+
+	.offer-btn {
+		width: 90%;
+	}
+
+	.header-title {
+		font-size: 50px;
+		margin: 6% auto 11% !important;
+		max-width: 93%;
+	}
+
+	.day {
+		position: relative;
+		border: 1px solid #fff;
+		width: 120px;
+		height: 45px;
+		display: flex;
+		margin-right: 22px;
+		cursor: pointer;
+	}
+
+	.scroll {
+		margin-top: 15px;
+	}
+
+	.come-block {
+		margin: 40px auto 100px;
+	}
+
+	.subscribe-text {
+		font-size: 26px;
+		line-height: 44px;
+		max-width: 98%;
+		text-align: center;
+		margin: 25px auto;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	footer .logo {
+		width: 37%;
+	}
+
+	.slider-title {
+		margin-bottom: 0;
+		font-size: 30px;
+	}
+
+	.section-title {
+		font-size: 42px;
+	}
+
+	.header-title {
+		font-size: 42px;
+		max-width: 96%;
+	}
+
+	.btn {
+		padding: 18px 50px;
+	}
+
+	.reviews-title {
+		font-size: 30px;
+	}
+
+	.reviews-name {
+		font-size: 28px;
+	}
+
+	.review-text {
+		font-size: 22px;
+		line-height: 34px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header-title {
+		font-size: 39px;
+		margin: 18% auto 22%;
+	}
+
+	.btn {
+		padding: 14px 30px;
+		font-size: 18px;
+	}
+
+	.tour-info__about-title:before {
+		left: -4px;
+	}
+
+	.footer-list__link {
+		font-syze: 18px;
+	}
+}
+
+
+/* height */
+
+@media screen and (max-height: 1040px) {
+	.header-title {
+		margin: 2% auto 4%;
+	}
+}
+
+@media screen and (max-height: 900px) {
+	.header-title {
+		/* margin: 7% auto 9%; */
+	}
+}
